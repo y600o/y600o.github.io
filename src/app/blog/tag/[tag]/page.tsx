@@ -9,6 +9,13 @@ interface TagPageProps {
   params: Promise<{ tag: string }>;
 }
 
+export async function generateStaticParams() {
+  const tags = getAllTags();
+  return tags.map((tag) => ({
+    tag: encodeURIComponent(tag.name),
+  }));
+}
+
 export async function generateMetadata({ params }: TagPageProps): Promise<Metadata> {
   const { tag } = await params;
   const decodedTag = decodeURIComponent(tag);
