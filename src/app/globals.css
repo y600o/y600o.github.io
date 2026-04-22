@@ -1,0 +1,246 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+  --font-sans:
+    'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', ui-sans-serif,
+    system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+    'Courier New', monospace;
+  --font-serif:
+    'Noto Serif SC', 'Songti SC', 'SimSun', ui-serif, Georgia, Cambria,
+    'Times New Roman', Times, serif;
+}
+
+:root {
+  /* 博客绿色主题 - 直角设计 */
+  --radius: 0;
+  --background: #F9F9F9;
+  --foreground: #1a1a1a;
+  --card: #ffffff;
+  --card-foreground: #1a1a1a;
+  --popover: #ffffff;
+  --popover-foreground: #1a1a1a;
+  /* 主绿色系 */
+  --primary: #2E8B57;
+  --primary-foreground: #ffffff;
+  --secondary: #E8F5E9;
+  --secondary-foreground: #2E8B57;
+  --muted: #F5F5F5;
+  --muted-foreground: #666666;
+  --accent: #3CB371;
+  --accent-foreground: #ffffff;
+  --destructive: #DC3545;
+  --border: #E0E0E0;
+  --input: #E0E0E0;
+  --ring: #2E8B57;
+  /* 图表颜色 */
+  --chart-1: #2E8B57;
+  --chart-2: #3CB371;
+  --chart-3: #66CDAA;
+  --chart-4: #90EE90;
+  --chart-5: #98FB98;
+  /* 侧边栏 */
+  --sidebar: #2E8B57;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #ffffff;
+  --sidebar-primary-foreground: #2E8B57;
+  --sidebar-accent: #3CB371;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #3CB371;
+  --sidebar-ring: #ffffff;
+}
+
+/* 全局样式 */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--background);
+  color: var(--foreground);
+  line-height: 1.6;
+}
+
+/* 直角风格 - 移除所有圆角 */
+* {
+  border-radius: 0 !important;
+}
+
+/* 代码高亮主题 */
+pre {
+  background-color: #1e1e1e !important;
+  color: #d4d4d4;
+  padding: 1rem;
+  overflow-x: auto;
+  border: 2px solid var(--primary);
+}
+
+code {
+  font-family: var(--font-mono);
+  background-color: var(--muted);
+  padding: 0.125rem 0.25rem;
+  font-size: 0.875em;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+/* Markdown 文章内容样式 */
+.article-content h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem 0 1rem;
+  color: var(--primary);
+  border-bottom: 3px solid var(--primary);
+  padding-bottom: 0.5rem;
+}
+
+.article-content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1.5rem 0 1rem;
+  color: var(--primary);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.25rem;
+}
+
+.article-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem;
+  color: var(--secondary-foreground);
+}
+
+.article-content p {
+  margin: 1rem 0;
+  line-height: 1.8;
+}
+
+.article-content ul,
+.article-content ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.article-content li {
+  margin: 0.5rem 0;
+  line-height: 1.8;
+}
+
+.article-content blockquote {
+  border-left: 4px solid var(--primary);
+  background-color: var(--secondary);
+  padding: 1rem;
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+.article-content a {
+  color: var(--primary);
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.article-content a:hover {
+  color: var(--accent);
+}
+
+.article-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  border: 2px solid var(--border);
+}
+
+.article-content hr {
+  border: none;
+  border-top: 2px solid var(--border);
+  margin: 2rem 0;
+}
+
+.article-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.article-content th,
+.article-content td {
+  border: 2px solid var(--border);
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.article-content th {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  font-weight: 600;
+}
+
+.article-content tr:nth-child(even) {
+  background-color: var(--muted);
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--muted);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
