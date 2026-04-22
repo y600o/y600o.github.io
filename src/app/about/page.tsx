@@ -70,8 +70,8 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
               'GIS',
-              'Remote Sensing',
               'Python',
+              'Remote Sensing',
               'Machine Learning',
             ].map((skill) => (
               <div key={skill} className="px-4 py-3 bg-secondary text-secondary-foreground text-center font-medium">
