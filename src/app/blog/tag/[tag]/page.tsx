@@ -11,8 +11,8 @@ interface TagPageProps {
 
 export async function generateStaticParams() {
   const tags = getAllTags();
-  return tags.map((tag) => ({
-    tag: encodeURIComponent(tag.name),
+  return tags.map((item) => ({
+    tag: encodeURIComponent(item.tag),
   }));
 }
 
