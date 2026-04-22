@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import { User, Code, BookOpen, Heart, Mail, Github } from 'lucide-react';
+import { Code, BookOpen, Heart, Mail, Github } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '关于作者',
-  description: '了解技术博客作者的个人信息和背景',
+  description: '了解个人博客作者的个人信息和背景',
 };
 
 export default function AboutPage() {
@@ -14,7 +14,7 @@ export default function AboutPage() {
         {/* Header */}
         <div className="mb-12 text-center">
           <h1 className="text-4xl font-bold text-primary mb-4">关于作者</h1>
-          <p className="text-gray-600 text-lg">热爱技术，专注前端，享受分享</p>
+          <p className="text-gray-600 text-lg">芥子须臾，俯拾皆是</p>
         </div>
 
         {/* Profile Card */}
@@ -22,21 +22,26 @@ export default function AboutPage() {
           <div className="flex flex-col md:flex-row gap-8">
             {/* Avatar */}
             <div className="flex-shrink-0">
-              <div className="w-32 h-32 bg-secondary flex items-center justify-center border-4 border-primary mx-auto md:mx-0">
-                <User className="h-16 w-16 text-primary" />
+              <div className="w-32 h-32 border-4 border-primary mx-auto md:mx-0 overflow-hidden">
+                <img src="/avatar.png" alt="头像" className="w-full h-full object-cover" />
               </div>
             </div>
 
             {/* Info */}
             <div className="flex-1">
-              <h2 className="text-2xl font-bold mb-2">技术博主</h2>
+              <h2 className="text-2xl font-bold mb-2">y600</h2>
               <p className="text-gray-600 mb-4">
-                全栈开发工程师，专注于现代前端技术栈的探索与实践。
-                热衷于开源项目和技术分享，相信代码改变世界。
+                学习过程中常常会遇到许多值得记录的知识和想法，时间久了容易遗忘或散乱。因此，我搭建了这个博客，主要用于整理和保存自己的学习笔记，方便随时查阅。
               </p>
-              <div className="flex flex-wrap gap-3">
+              <p className="text-gray-600 mb-4">
+                如果其中的某些内容也能对你有所帮助，我将非常高兴。
+              </p>
+              <p className="text-gray-600">
+                感谢你的停留，期待与你共同进步。
+              </p>
+              <div className="flex flex-wrap gap-3 mt-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/y600o"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-2 bg-gray-900 text-white hover:bg-accent transition-colors"
@@ -45,7 +50,7 @@ export default function AboutPage() {
                   GitHub
                 </a>
                 <a
-                  href="mailto:hello@example.com"
+                  href="mailto:crescentmere@outlook.com"
                   className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-white hover:bg-accent transition-colors"
                 >
                   <Mail className="h-4 w-4" />
@@ -60,12 +65,14 @@ export default function AboutPage() {
         <div className="bg-white border-2 border-primary p-8 mb-8">
           <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">
             <Code className="h-6 w-6 text-accent" />
-            技术栈
+            相关领域
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              'React', 'Next.js', 'TypeScript', 'Node.js',
-              'Tailwind CSS', 'PostgreSQL', 'Docker', 'Git'
+              'GIS',
+              'Remote Sensing',
+              'Python',
+              'Machine Learning',
             ].map((skill) => (
               <div key={skill} className="px-4 py-3 bg-secondary text-secondary-foreground text-center font-medium">
                 {skill}
@@ -82,11 +89,11 @@ export default function AboutPage() {
           </h3>
           <ul className="space-y-3">
             {[
-              '探索新技术，特别是前端领域的创新',
-              '阅读技术书籍和论文',
-              '参与开源项目，贡献代码',
-              '写技术博客，分享经验',
-              '旅行和摄影'
+              '探索新技术',
+              '开发小工具，提升工作学习的效率',
+              '记录学习过程和经验',
+              '旅行和摄影',
+              '热爱生活',
             ].map((item, index) => (
               <li key={index} className="flex items-start gap-3">
                 <span className="w-6 h-6 bg-accent text-white flex items-center justify-center flex-shrink-0 text-sm">
@@ -105,11 +112,11 @@ export default function AboutPage() {
             联系我
           </h3>
           <p className="mb-6 text-white/90">
-            如果你有任何问题、合作意向或者只是想打个招呼，欢迎联系我！
+            如果你有任何问题或者只是想打个招呼，欢迎联系我！
           </p>
           <div className="space-y-2 text-white/90">
-            <p>邮箱: hello@example.com</p>
-            <p>GitHub: github.com/username</p>
+            <p>邮箱: crescentmere@outlook.com</p>
+            <p>GitHub: github.com/y600o</p>
           </div>
         </div>
 

@@ -1,7 +1,7 @@
 ---
 title: '欢迎来到我的个人博客'
-date: '2024-12-01'
-excerpt: '这是我的第一篇博客文章，我将在这里分享我的技术心得、生活感悟和项目经验。'
+date: '2026-4-22'
+excerpt: '这是我的第一篇博客文章，我将在这里分享我的技术心得、感悟和项目经验。'
 tags: ['欢迎', '介绍']
 coverImage: '/images/posts/welcome.jpg'
 ---
@@ -19,26 +19,25 @@ coverImage: '/images/posts/welcome.jpg'
 ## 博客内容规划
 
 ### 技术文章
-- 前端开发 (React, Next.js, TypeScript)
-- 后端技术 (Node.js, 数据库)
+- GIS与遥感
+- Python学习
 - 工具和效率
 
-### 项目记录
-- 项目开发过程
+### 学习记录
+- 学习过程
 - 遇到的问题和解决方案
-- 项目复盘
+- 复盘总结
 
 ### 生活感悟
 - 读书笔记
-- 旅行见闻
 - 日常思考
 
 ## 联系我
 
 如果你有任何问题或建议，欢迎通过以下方式联系我：
 
-- GitHub: [github.com/username](https://github.com)
-- Email: hello@example.com
+- GitHub: [github.com/y600o](https://github.com/y600o)
+- Email: crescentmere@outlook.com
 
 ---
 

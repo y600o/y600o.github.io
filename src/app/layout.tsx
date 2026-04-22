@@ -5,18 +5,18 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: {
-    default: '技术博客 - 分享技术心得',
-    template: '%s | 技术博客',
+    default: '个人博客 - 记录学习所得',
+    template: '%s | 个人博客',
   },
-  description: '分享技术心得，记录成长历程。这里有关于前端开发、全栈架构和效率工具的实用内容。',
-  keywords: ['博客', '技术', '前端', 'React', 'Next.js', 'TypeScript'],
-  authors: [{ name: '技术博主' }],
+  description: '记录学习所得，整理技术笔记。时间久了容易遗忘或散乱，因此搭建了这个博客，方便随时查阅。',
+  keywords: ['博客', '学习', 'GIS', 'Remote Sensing', 'Python', 'Machine Learning'],
+  authors: [{ name: 'y600' }],
   icons: {
     icon: '/typicon.ico',
   },
   openGraph: {
-    title: '技术博客 - 分享技术心得',
-    description: '分享技术心得，记录成长历程。',
+    title: '个人博客 - 记录学习所得',
+    description: '记录学习所得，整理技术笔记。',
     type: 'website',
     locale: 'zh_CN',
   },

@@ -24,7 +24,7 @@ export default function Footer() {
           {/* Social Links */}
           <div className="flex gap-3">
             <a
-              href="https://github.com"
+              href="https://github.com/y600o"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 bg-gray-800 hover:bg-accent transition-colors"
@@ -33,7 +33,7 @@ export default function Footer() {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="mailto:hello@example.com"
+              href="mailto:crescentmere@outlook.com"
               className="p-2 bg-gray-800 hover:bg-accent transition-colors"
               aria-label="Email"
             >
@@ -45,7 +45,7 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-gray-800 mt-6 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-2 text-sm text-gray-400">
-            <p>© {currentYear} 技术博客. All rights reserved.</p>
+            <p>© {currentYear} 个人博客. All rights reserved.</p>
             <p className="flex items-center gap-1">
               Made with <Heart className="h-4 w-4 text-red-500" /> using Next.js
             </p>

@@ -9,6 +9,14 @@ export default function HomePage() {
   return (
     <div className="min-h-screen py-12">
       <div className="mx-auto max-w-6xl px-4">
+        {/* 引用语录 */}
+        <div className="bg-secondary border-l-4 border-accent p-6 mb-8">
+          <p className="text-lg text-primary italic">
+            芥子须臾，俯拾皆是。
+          </p>
+          <p className="text-sm text-gray-600 mt-2">——《灵笼》白月魁</p>
+        </div>
+
         {/* 文章列表 - 双列布局 */}
         <div className="mb-8">
           <div className="flex items-center justify-between mb-6">

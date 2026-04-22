@@ -22,10 +22,10 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 text-xl font-bold">
-            <div className="flex h-8 w-8 items-center justify-center bg-white text-primary">
-              B
+            <div className="w-8 h-8">
+              <img src="/typicon.ico" alt="Logo" className="w-full h-full object-contain" />
             </div>
-            <span className="hidden sm:inline">技术博客</span>
+            <span className="hidden sm:inline">个人博客</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -49,7 +49,7 @@ export default function Header() {
           {/* Social Links - Desktop */}
           <div className="hidden md:flex items-center gap-2">
             <a
-              href="https://github.com"
+              href="https://github.com/y600o"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 hover:bg-accent/80 transition-colors"
@@ -58,7 +58,7 @@ export default function Header() {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="mailto:hello@example.com"
+              href="mailto:crescentmere@outlook.com"
               className="p-2 hover:bg-accent/80 transition-colors"
               aria-label="Email"
             >
@@ -96,7 +96,7 @@ export default function Header() {
             ))}
             <div className="flex gap-2 px-4 py-3 border-t border-accent/30 mt-2">
               <a
-                href="https://github.com"
+                href="https://github.com/y600o"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 hover:bg-accent/80 transition-colors"
@@ -105,7 +105,7 @@ export default function Header() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="mailto:hello@example.com"
+                href="mailto:crescentmere@outlook.com"
                 className="p-2 hover:bg-accent/80 transition-colors"
                 aria-label="Email"
               >
