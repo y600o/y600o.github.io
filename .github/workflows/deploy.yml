@@ -37,9 +37,6 @@ jobs:
 
       - name: Build with Next.js
         run: pnpm build
-        env:
-          # 如果使用自定义域名，取消下面这行的注释
-          # NEXT_PUBLIC_SITE_URL: 'https://your-domain.com'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
