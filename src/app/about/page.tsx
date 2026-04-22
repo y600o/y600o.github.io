@@ -31,13 +31,7 @@ export default function AboutPage() {
             <div className="flex-1">
               <h2 className="text-2xl font-bold mb-2">y600</h2>
               <p className="text-gray-600 mb-4">
-                学习过程中常常会遇到许多值得记录的知识和想法，时间久了容易遗忘或散乱。因此，我搭建了这个博客，主要用于整理和保存自己的学习笔记，方便随时查阅。
-              </p>
-              <p className="text-gray-600 mb-4">
-                如果其中的某些内容也能对你有所帮助，我将非常高兴。
-              </p>
-              <p className="text-gray-600">
-                感谢你的停留，期待与你共同进步。
+                学习过程中常常会遇到许多值得记录的知识和想法，时间久了容易遗忘或散乱。因此，我搭建了这个博客，主要用于整理和保存自己的学习笔记，方便随时查阅。感谢你的停留，如果其中的某些内容也能对你有所帮助，我将非常高兴。
               </p>
               <div className="flex flex-wrap gap-3 mt-4">
                 <a
