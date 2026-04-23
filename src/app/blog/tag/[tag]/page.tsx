@@ -12,7 +12,7 @@ interface TagPageProps {
 export async function generateStaticParams() {
   const tags = getAllTags();
   return tags.map((item) => ({
-    tag: encodeURIComponent(item.tag),
+    tag: item.tag,
   }));
 }
 
