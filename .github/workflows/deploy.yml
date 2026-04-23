@@ -38,6 +38,12 @@ jobs:
       - name: Build with Next.js
         run: pnpm build
 
+      - name: List generated files
+        run: |
+          echo "=== Checking tag pages ==="
+          ls -la out/blog/tag/ 2>/dev/null || echo "No tag directory found"
+          find out/blog/tag -type f -name "index.html" | head -20
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
