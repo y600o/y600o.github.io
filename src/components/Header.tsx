@@ -25,7 +25,6 @@ export default function Header() {
             <div className="w-8 h-8">
               <img src="/typicon.ico" alt="Logo" className="w-full h-full object-contain" />
             </div>
-            <span className="hidden sm:inline">个人博客</span>
           </Link>
 
           {/* Desktop Navigation */}
