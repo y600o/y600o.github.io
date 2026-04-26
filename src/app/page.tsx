@@ -4,7 +4,8 @@ import PostCard from '@/components/PostCard';
 import { getAllPosts } from '@/lib/posts';
 
 export default function HomePage() {
-  const recentPosts = getAllPosts();
+  const allPosts = getAllPosts();
+  const recentPosts = allPosts.slice(0, 4);
 
   return (
     <div className="min-h-screen py-12">
@@ -20,8 +21,13 @@ export default function HomePage() {
         {/* 文章列表 - 双列布局 */}
         <div className="mb-8">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-2xl font-bold text-primary">全部文章</h2>
-            <span className="text-gray-500 text-sm">共 {recentPosts.length} 篇</span>
+            <h2 className="text-2xl font-bold text-primary">最新文章</h2>
+            <Link 
+              href="/blog" 
+              className="text-sm text-accent hover:text-primary transition-colors"
+            >
+              查看全部 {allPosts.length} 篇 →
+            </Link>
           </div>
           
           {recentPosts.length > 0 ? (
