@@ -2,7 +2,7 @@
 title: '欢迎来到我的个人博客'
 date: '2026-4-22'
 excerpt: '这是我的第一篇博客文章，我将在这里分享我的技术心得、感悟和项目经验。'
-tags: ['欢迎', '介绍']
+tags: ['介绍']
 coverImage: '/images/posts/welcome.jpg'
 ---
 
