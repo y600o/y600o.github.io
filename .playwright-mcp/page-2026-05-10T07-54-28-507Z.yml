@@ -1,0 +1,137 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Logo" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Logo" [ref=e7]
+      - navigation [ref=e8]:
+        - link "首页" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "博客" [ref=e10] [cursor=pointer]:
+          - /url: /blog/
+        - link "关于" [ref=e11] [cursor=pointer]:
+          - /url: /about/
+      - generic [ref=e12]:
+        - link "GitHub" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/y600o
+          - img [ref=e14]
+        - link "Email" [ref=e17] [cursor=pointer]:
+          - /url: mailto:crescentmere@outlook.com
+          - img [ref=e18]
+  - main [ref=e21]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - paragraph [ref=e25]: 芥子须臾，俯拾皆是。
+        - paragraph [ref=e26]: ——《灵笼》白月魁
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - heading "最新文章" [level=2] [ref=e29]
+          - link "查看全部 7 篇 →" [ref=e30] [cursor=pointer]:
+            - /url: /blog/
+        - generic [ref=e31]:
+          - article [ref=e32]:
+            - generic [ref=e33]:
+              - generic [ref=e34]:
+                - generic [ref=e35]:
+                  - img [ref=e36]
+                  - text: Python
+                - generic [ref=e39]:
+                  - img [ref=e40]
+                  - text: 环境配置
+              - heading "conda环境管理" [level=2] [ref=e43]:
+                - link "conda环境管理" [ref=e44] [cursor=pointer]:
+                  - /url: /blog/conda-env-management/
+              - paragraph [ref=e45]: conda环境管理，包括：conda环境的创建和激活、python库的下载方法、conda环境的切换和删除。
+              - generic [ref=e46]:
+                - generic [ref=e47]:
+                  - img [ref=e48]
+                  - text: 2026年4月30日
+                - link "阅读全文 →" [ref=e50] [cursor=pointer]:
+                  - /url: /blog/conda-env-management/
+          - article [ref=e51]:
+            - generic [ref=e52]:
+              - generic [ref=e53]:
+                - generic [ref=e54]:
+                  - img [ref=e55]
+                  - text: Windows
+                - generic [ref=e58]:
+                  - img [ref=e59]
+                  - text: Python
+                - generic [ref=e62]:
+                  - img [ref=e63]
+                  - text: Miniconda
+                - generic [ref=e66]:
+                  - img [ref=e67]
+                  - text: VS Code
+                - generic [ref=e70]:
+                  - img [ref=e71]
+                  - text: 软件安装
+              - heading "Miniconda + VS Code的python基本环境配置（windows）" [level=2] [ref=e74]:
+                - link "Miniconda + VS Code的python基本环境配置（windows）" [ref=e75] [cursor=pointer]:
+                  - /url: /blog/miniconda-vscode-env-setup/
+              - paragraph [ref=e76]: Windows中的python基本环境配置，包括：Miniconda和VS Code的安装和扩展配置。
+              - generic [ref=e77]:
+                - generic [ref=e78]:
+                  - img [ref=e79]
+                  - text: 2026年4月29日
+                - link "阅读全文 →" [ref=e81] [cursor=pointer]:
+                  - /url: /blog/miniconda-vscode-env-setup/
+          - article [ref=e82]:
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - generic [ref=e85]:
+                  - img [ref=e86]
+                  - text: Windows
+                - generic [ref=e89]:
+                  - img [ref=e90]
+                  - text: 软件设置
+              - heading "如何屏蔽 MathType 7 更新提示" [level=2] [ref=e93]:
+                - link "如何屏蔽 MathType 7 更新提示" [ref=e94] [cursor=pointer]:
+                  - /url: /blog/block-math-type-update/
+              - paragraph [ref=e95]: 通过 Windows 防火墙阻止 MathType.exe 联网，屏蔽强制更新弹窗。
+              - generic [ref=e96]:
+                - generic [ref=e97]:
+                  - img [ref=e98]
+                  - text: 2026年4月26日
+                - link "阅读全文 →" [ref=e100] [cursor=pointer]:
+                  - /url: /blog/block-math-type-update/
+          - article [ref=e101]:
+            - generic [ref=e102]:
+              - generic [ref=e104]:
+                - img [ref=e105]
+                - text: 介绍
+              - heading "欢迎来到我的个人博客" [level=2] [ref=e108]:
+                - link "欢迎来到我的个人博客" [ref=e109] [cursor=pointer]:
+                  - /url: /blog/welcome-to-my-blog/
+              - paragraph [ref=e110]: 这是我的第一篇博客文章，我将在这里分享我的技术心得、感悟和项目经验。
+              - generic [ref=e111]:
+                - generic [ref=e112]:
+                  - img [ref=e113]
+                  - text: 2026年4月22日
+                - link "阅读全文 →" [ref=e115] [cursor=pointer]:
+                  - /url: /blog/welcome-to-my-blog/
+  - contentinfo [ref=e116]:
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - navigation [ref=e119]:
+          - link "首页" [ref=e120] [cursor=pointer]:
+            - /url: /
+          - link "博客" [ref=e121] [cursor=pointer]:
+            - /url: /blog/
+          - link "关于" [ref=e122] [cursor=pointer]:
+            - /url: /about/
+        - generic [ref=e123]:
+          - link "GitHub" [ref=e124] [cursor=pointer]:
+            - /url: https://github.com/y600o
+            - img [ref=e125]
+          - link "Email" [ref=e128] [cursor=pointer]:
+            - /url: mailto:crescentmere@outlook.com
+            - img [ref=e129]
+      - generic [ref=e133]:
+        - paragraph [ref=e134]: © 2026 y600. All rights reserved.
+        - paragraph [ref=e135]:
+          - text: Made with
+          - img [ref=e136]
+          - text: using Next.js
+  - button "Open Next.js Dev Tools" [ref=e143] [cursor=pointer]:
+    - img [ref=e144]

@@ -1,11 +1,12 @@
 ---
-title: 'Tailwind CSS 实战技巧'
-date: '2024-12-25'
-excerpt: 'Tailwind CSS 是现代 CSS 框架的代表。本文将分享一些实用的 Tailwind CSS 技巧，让你的样式开发更高效。'
-tags: ['Tailwind CSS', 'CSS', '前端']
-coverImage: '/images/posts/tailwind.jpg'
+title: Tailwind CSS 实战技巧
+date: 2024-12-25
+excerpt: Tailwind CSS 是现代 CSS 框架的代表。本文将分享一些实用的 Tailwind CSS 技巧，让你的样式开发更高效。
+tags:
+  - Tailwind CSS
+  - CSS
+  - 前端
 ---
-
 # Tailwind CSS 实战技巧
 
 Tailwind CSS 提供了原子化的 CSS 解决方案，让样式开发变得高效且一致。

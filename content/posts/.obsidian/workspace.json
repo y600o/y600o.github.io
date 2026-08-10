@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "d568978c2a8d0094",
+    "type": "split",
+    "children": [
+      {
+        "id": "46ac38d6bac7f2c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6fe83397076d82f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "block-chrome-update.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "block-chrome-update"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "65544bf1b45357e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9dca3c903b5f18b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0dbf1176c39f14a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "726fdc5b59f446e6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:ArcMap",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "f17126b68c5effe0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d1598140ebf2f5e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7fb5fde0222f6ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "112c1c6c11b5ce71",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "welcome-to-my-blog.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "welcome-to-my-blog 的反向链接列表"
+            }
+          },
+          {
+            "id": "6c55270cb038efb7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "welcome-to-my-blog.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "welcome-to-my-blog 的出链列表"
+            }
+          },
+          {
+            "id": "a3fa726c1dab9210",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "7ffa924fa32e73bb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "64f048a32fc02988",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "welcome-to-my-blog.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "welcome-to-my-blog 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "b6fe83397076d82f",
+  "lastOpenFiles": [
+    "welcome-to-my-blog.md",
+    "typescript-best-practices.md",
+    "tailwind-css-tips.md",
+    "nextjs-16-features.md",
+    "arcmap-set.md",
+    "arcgis-setup.md",
+    "envi-setup.md",
+    "arcgis-pro-setup.md",
+    "acrobat-dc-setup.md",
+    "block-math-type-update.md",
+    "conda-env-management.md",
+    "miniconda-vscode-env-setup.md",
+    "block-chrome-update.md",
+    "2026-04-26.md",
+    "templates/模板.md",
+    "templates",
+    "attachments/welcome-to-my-blog-1.png",
+    "attachments/welcome-to-my-blog-1.png",
+    "attachments/welcome-to-my-blog.png",
+    "attachments"
+  ]
+}

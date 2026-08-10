@@ -189,6 +189,8 @@ pre code {
   color: var(--primary);
   text-decoration: underline;
   transition: color 0.2s;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .article-content a:hover {

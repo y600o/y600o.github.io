@@ -1,11 +1,12 @@
 ---
-title: 'TypeScript 最佳实践指南'
-date: '2024-12-20'
-excerpt: '掌握 TypeScript 的最佳实践，让你的代码更加健壮和可维护。从基础类型到高级泛型，一文打尽。'
-tags: ['TypeScript', '前端', '最佳实践']
-coverImage: '/images/posts/typescript.jpg'
+title: TypeScript 最佳实践指南
+date: 2024-12-20
+excerpt: 掌握 TypeScript 的最佳实践，让你的代码更加健壮和可维护。从基础类型到高级泛型，一文打尽。
+tags:
+  - TypeScript
+  - 前端
+  - 最佳实践
 ---
-
 # TypeScript 最佳实践指南
 
 TypeScript 已经成为现代前端开发的标配。本文将分享一些实用的 TypeScript 最佳实践。

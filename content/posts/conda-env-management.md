@@ -1,10 +1,11 @@
 ---
-title: 'conda环境管理'
-date: '2026-04-30'
-excerpt: 'conda环境管理，包括：conda环境的创建和激活、python库的下载方法、conda环境的切换和删除。'
-tags: ['Python', '环境配置']
+title: conda 环境管理
+date: 2026-04-30
+excerpt: conda环境管理，包括：conda环境的创建和激活、python库的下载方法、conda环境的切换和删除。
+tags:
+  - Python
+  - 环境配置
 ---
-
 开始菜单搜索`Anaconda Prompt`并打开，以下操作都在此运行。
 
 ## 创建conda环境

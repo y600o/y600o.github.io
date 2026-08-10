@@ -1,10 +1,14 @@
 ---
-title: 'Miniconda + VS Code的python基本环境配置（windows）'
-date: '2026-04-29'
-excerpt: 'Windows中的python基本环境配置，包括：Miniconda和VS Code的安装和扩展配置。'
-tags: ['Windows', 'Python', 'Miniconda', 'VS Code', '软件安装']
+title: Miniconda + VS Code 的 python 基本环境配置（windows）
+date: 2026-04-29
+excerpt: Windows中的python基本环境配置，包括：Miniconda和VS Code的安装和扩展配置。
+tags:
+  - Windows
+  - Python
+  - Miniconda
+  - VS Code
+  - 软件安装
 ---
-
 ## 安装Miniconda
 
 为了更好地管理python，需要根据自己的需求选择安装Anaconda或者Miniconda，二者的安装流程大致一致。如果你不清楚二者的区别，那就安装Miniconda。这里以Miniconda为例。
@@ -54,4 +58,3 @@ VS Code是一款很受欢迎的开源免费、跨平台的代码编辑器。拥�
 2. 输入文件名，加上后缀`.py`，点击“新建文件”，选择文件位置，点击“保存”
 3. 然后即可开始编码
 4. 编码完成后按Ctrl+F5或点击左上角的三角图标运行
-

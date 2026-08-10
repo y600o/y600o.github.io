@@ -1,11 +1,12 @@
 ---
-title: 'Next.js 16 新特性深度解析'
-date: '2024-12-15'
-excerpt: '探索 Next.js 16 中令人兴奋的新功能，包括改进的 App Router、更快的构建速度和增强的开发者体验。'
-tags: ['Next.js', 'React', '前端']
-coverImage: '/images/posts/nextjs16.jpg'
+title: Next.js 16 新特性深度解析
+date: 2024-12-15
+excerpt: 探索 Next.js 16 中令人兴奋的新功能，包括改进的 App Router、更快的构建速度和增强的开发者体验。
+tags:
+  - Next.js
+  - React
+  - 前端
 ---
-
 # Next.js 16 新特性深度解析
 
 Next.js 16 引入了许多令人兴奋的功能，让我们的开发体验更加流畅。
