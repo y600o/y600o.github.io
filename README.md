@@ -2,6 +2,10 @@
 
 一个使用 Next.js + TypeScript + Tailwind CSS 构建的个人博客网站，采用"直角+色块"设计理念，主题色为绿色系。
 
+## 预览
+
+[https://y600o.github.io/](https://y600o.github.io/)
+
 ## 功能特性
 
 - ✅ Markdown 文章系统
@@ -20,34 +24,6 @@
 - **图标**: Lucide React
 - **内容**: Markdown (gray-matter + remark)
 - **部署**: GitHub Pages
-
-## 快速开始
-
-### 安装依赖
-
-```bash
-pnpm install
-```
-
-### 开发模式
-
-```bash
-pnpm dev
-```
-
-访问 http://localhost:5000
-
-### 构建生产版本
-
-```bash
-pnpm build
-```
-
-### 静态导出
-
-```bash
-pnpm export
-```
 
 ## 项目结构
 
