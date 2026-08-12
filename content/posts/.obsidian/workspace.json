@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "block-chrome-update.md",
+                "file": "declaude.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "block-chrome-update"
+              "title": "declaude"
             }
           }
         ]
@@ -185,6 +185,9 @@
   },
   "active": "b6fe83397076d82f",
   "lastOpenFiles": [
+    "conda-env-management.md",
+    "declaude.md",
+    "block-chrome-update.md",
     "welcome-to-my-blog.md",
     "typescript-best-practices.md",
     "tailwind-css-tips.md",
@@ -195,9 +198,7 @@
     "arcgis-pro-setup.md",
     "acrobat-dc-setup.md",
     "block-math-type-update.md",
-    "conda-env-management.md",
     "miniconda-vscode-env-setup.md",
-    "block-chrome-update.md",
     "2026-04-26.md",
     "templates/模板.md",
     "templates",
