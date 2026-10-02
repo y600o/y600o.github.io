@@ -4,6 +4,7 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import remarkGfm from 'remark-gfm';
 import remarkHtml from 'remark-html';
+import remarkPostImages from './remark-post-images';
 
 const postsDirectory = path.join(process.cwd(), 'content/posts');
 
@@ -67,6 +68,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
 
     const processedContent = await remark()
       .use(remarkGfm)
+      .use(remarkPostImages, { slug })
       .use(remarkHtml, { sanitize: false })
       .process(content);
 
@@ -81,8 +83,11 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
       coverImage: data.coverImage,
       content: contentHtml,
     };
-  } catch {
-    return null;
+  } catch (error) {
+    if (error instanceof Error && 'code' in error && error.code === 'ENOENT') {
+      return null;
+    }
+    throw error;
   }
 }
 

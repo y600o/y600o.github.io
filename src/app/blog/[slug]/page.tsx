@@ -59,7 +59,7 @@ export default async function PostPage({ params }: PostPageProps) {
 
         {/* Article Header */}
         <article className="bg-white border-2 border-primary mb-8">
-          <div className="p-8">
+          <div className="p-4 sm:p-8">
             {/* Tags */}
             {post.tags.length > 0 && (
               <div className="flex flex-wrap gap-2 mb-4">

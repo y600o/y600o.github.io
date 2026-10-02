@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "sync-post-assets": "node scripts/sync-post-assets.mjs",
+    "test:post-images": "tsx --test tests/post-images.test.ts",
     "build": "bash ./scripts/build.sh",
     "dev": "bash ./scripts/dev.sh",
     "preinstall": "npx only-allow pnpm",

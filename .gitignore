@@ -9,6 +9,7 @@ node_modules/
 dist/
 build/
 out/
+public/post-assets/
 .next/
 .rsbuild/
 

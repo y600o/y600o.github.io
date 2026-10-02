@@ -64,6 +64,25 @@ coverImage: '/images/posts/cover.jpg'
 使用 Markdown 编写内容...
 ```
 
+### 插入图片（Obsidian）
+
+将图片保存在 `content/posts/attachments/`，在文章中使用标准 Markdown：
+
+```markdown
+![必应地图设置](attachments/omap-add-bingmap_1.jpg)
+```
+
+也支持 `./attachments/`、附件子目录及中文文件名。文件名包含空格时使用
+`![说明](<attachments/图片 名称.jpg>)`。文件名大小写必须与真实文件一致。
+文章和图片需要一起提交到 Git；无需移动原图或修改 Obsidian 中的链接。
+
+开发启动及构建前会自动同步附件，并在网页生成时转换图片地址。
+`public/post-assets/` 是自动生成目录，不需要提交。开发期间新增、删除或替换
+图片后运行 `pnpm sync-post-assets`，再刷新页面即可。
+缺失图片会导致构建失败，并提示文章和图片路径。
+正文 HTTPS 外链和 `/images/...` 等站点绝对路径保持不变。
+仅支持标准 Markdown 图片，不支持 Obsidian 的 `![[图片]]` 写法。
+
 ### 文章元数据
 
 | 字段 | 说明 | 必填 |
@@ -78,7 +97,7 @@ coverImage: '/images/posts/cover.jpg'
 
 1. Fork 或克隆此仓库
 2. 在 GitHub 仓库设置中启用 GitHub Pages
-3. 设置 Source 为 `gh-pages` 分支
+3. 设置 Source 为 `GitHub Actions`
 4. 推送代码到 `main` 分支，GitHub Actions 将自动部署
 
 ### 自定义域名（可选）
