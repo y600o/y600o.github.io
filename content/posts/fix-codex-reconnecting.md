@@ -9,11 +9,12 @@ tags:
 Codex 出现“Reconnecting 1/5→5/5”通常是 WebSocket 在代理环境下握手失败，常见的解决方法是在 `~/.codex/.env` 中正确配置 HTTP/HTTPS 代理变量并完整重启 Codex。
 ## 步骤：
 
-1. 编辑 `~/.codex/config.toml`，写入你的代理端口（示例 7890， 请换成你自己的）：
+1. 编辑 `~/.codex/.env`，写入你的代理端口（示例 7890， 请换成你自己的）：
 
 ```
 HTTP_PROXY="http://127.0.0.1:7890"
 HTTPS_PROXY="http://127.0.0.1:7890"
+ALL_PROXY="socks5h://127.0.0.1:7890"
 NO_PROXY="localhost,127.0.0.1,::1"
 ```
 
