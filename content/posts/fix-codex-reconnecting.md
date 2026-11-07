@@ -4,7 +4,7 @@ date: 2026-10-3
 excerpt: 强制禁用 WebSocket，彻底消除重连。
 tags:
   - 软件设置
-  - codex
+  - Codex
 ---
 Codex 出现“Reconnecting 1/5→5/5”通常是 WebSocket 在代理环境下握手失败，常见的解决方法是在 `~/.codex/.env` 中正确配置 HTTP/HTTPS 代理变量并完整重启 Codex。
 ## 步骤：

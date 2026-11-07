@@ -3,11 +3,10 @@ title: Miniconda + VS Code 的 python 基本环境配置（windows）
 date: 2026-04-29
 excerpt: Windows中的python基本环境配置，包括：Miniconda和VS Code的安装和扩展配置。
 tags:
-  - Windows
+  - 软件安装
   - Python
   - Miniconda
   - VS Code
-  - 软件安装
 ---
 ## 安装Miniconda
 

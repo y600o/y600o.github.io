@@ -4,7 +4,7 @@ date: 2026-08-04
 excerpt: 转载文章，仅供个人存档使用。
 tags:
   - 软件安装
-  - Arcgis
+  - ArcGIS
 ---
 ## 来源
 

@@ -3,8 +3,8 @@ title: 如何屏蔽 Chrome 更新提示
 date: 2026-08-10
 excerpt: 便携版 Chrome 启动时会提示自动更新失败，可以通过启动参数屏蔽更新弹窗。
 tags:
-  - Windows
   - 软件设置
+  - Chrome
 ---
 ## 操作步骤
 

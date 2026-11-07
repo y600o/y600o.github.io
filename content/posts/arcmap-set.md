@@ -4,7 +4,7 @@ date: 2026-08-02
 excerpt: 新装的ArcMap需要调整的几个设置。
 tags:
   - 软件设置
-  - Arcgis
+  - ArcGIS
 ---
 ## 操作步骤
 

@@ -1,8 +1,10 @@
 ---
-title: '如何屏蔽 MathType 7 更新提示'
-date: '2026-04-26'
-excerpt: '通过 Windows 防火墙阻止 MathType.exe 联网，屏蔽强制更新弹窗。'
-tags: ['Windows', '软件设置']
+title: 如何屏蔽 MathType 7 更新提示
+date: 2026-04-26
+excerpt: 通过 Windows 防火墙阻止 MathType.exe 联网，屏蔽强制更新弹窗。
+tags:
+  - 软件设置
+  - MathType
 ---
 ## 操作步骤
 
