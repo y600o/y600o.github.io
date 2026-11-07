@@ -55,9 +55,6 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {recentTools.map((tool) => (
               <article key={tool.slug} className="bg-white border-2 border-primary p-6 hover:shadow-lg transition-shadow">
-                <ul className="mb-4 flex flex-wrap gap-2">
-                  {tool.features.map((feature) => <li key={feature} className="bg-secondary px-2 py-1 text-sm text-accent">{feature}</li>)}
-                </ul>
                 <h3 className="mb-3 text-xl font-bold">{tool.name}</h3>
                 <p className="mb-4 text-gray-600">{tool.description}</p>
                 <a href={`/tools/${tool.slug}/`} className="inline-flex items-center gap-1 text-sm text-accent hover:text-primary transition-colors">

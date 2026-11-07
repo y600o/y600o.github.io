@@ -28,7 +28,7 @@ npm --prefix tools/trip-report test
 
 1. 将独立应用放入 `tools/<slug>/`，提交源码及锁文件，不提交 node_modules、dist、用户文件或密钥。
 2. 配置资源基础路径为 `/tools/<slug>/`；如有 PWA，启动路径、图标、注册路径和缓存作用域必须限定于此目录。
-3. 在 `src/lib/tools.ts` 注册名称、描述及 slug，在 `scripts/build-tools.mjs` 添加构建项，并在部署工作流添加该工具的依赖安装和测试步骤。
+3. 在 `src/lib/tools.ts` 注册名称、描述、添加日期及 slug（卡片仅展示标题、简介和链接按钮），在 `scripts/build-tools.mjs` 添加构建项，并在部署工作流添加该工具的依赖安装和测试步骤。
 4. 不创建与工具路径相同的 Next.js 页面。浏览器工具通过普通链接打开，构建产物由脚本合并至 out。
 
 各工具共用域名，因此 localStorage 键须带工具专属前缀；路径不会隔离同源存储。涉及敏感数据或不可信代码的工具应另行评估隔离方式。

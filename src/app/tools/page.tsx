@@ -21,13 +21,9 @@ export default function ToolsPage() {
             <article key={tool.slug} className="border-2 border-primary bg-white p-6">
               <h2 className="mb-3 text-2xl font-bold text-primary">{tool.name}</h2>
               <p className="mb-5 leading-relaxed text-gray-600">{tool.description}</p>
-              <ul className="mb-6 flex flex-wrap gap-2">
-                {tool.features.map((feature) => <li key={feature} className="bg-secondary px-3 py-1 text-sm text-primary">{feature}</li>)}
-              </ul>
               <a href={`/tools/${tool.slug}/`} className="inline-flex items-center gap-2 bg-primary px-5 py-3 font-medium text-white hover:bg-accent">
                 打开{tool.name}<ArrowUpRight className="h-4 w-4" aria-hidden="true" />
               </a>
-              {tool.note && <p className="mt-6 border-t border-primary/20 pt-4 text-sm leading-relaxed text-gray-600">{tool.note}</p>}
             </article>
           ))}
         </div>
