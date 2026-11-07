@@ -1,11 +1,13 @@
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
+import { browserTools } from '@/lib/tools';
 import PostCard from '@/components/PostCard';
 import { getAllPosts } from '@/lib/posts';
 
 export default function HomePage() {
   const allPosts = getAllPosts();
   const recentPosts = allPosts.slice(0, 4);
+  const recentTools = [...browserTools].sort((a, b) => b.addedOn.localeCompare(a.addedOn)).slice(0, 2);
 
   return (
     <div className="min-h-screen py-12">
@@ -42,6 +44,29 @@ export default function HomePage() {
             </div>
           )}
         </div>
+
+        <section className="mb-8" aria-labelledby="recent-tools-heading">
+          <div className="flex items-center justify-between gap-4 mb-6">
+            <h2 id="recent-tools-heading" className="text-2xl font-bold text-primary">最新工具</h2>
+            <Link href="/tools" className="text-sm text-accent hover:text-primary transition-colors">
+              查看全部工具箱 →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {recentTools.map((tool) => (
+              <article key={tool.slug} className="bg-white border-2 border-primary p-6 hover:shadow-lg transition-shadow">
+                <ul className="mb-4 flex flex-wrap gap-2">
+                  {tool.features.map((feature) => <li key={feature} className="bg-secondary px-2 py-1 text-sm text-accent">{feature}</li>)}
+                </ul>
+                <h3 className="mb-3 text-xl font-bold">{tool.name}</h3>
+                <p className="mb-4 text-gray-600">{tool.description}</p>
+                <a href={`/tools/${tool.slug}/`} className="inline-flex items-center gap-1 text-sm text-accent hover:text-primary transition-colors">
+                  打开工具 <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+                </a>
+              </article>
+            ))}
+          </div>
+        </section>
       </div>
     </div>
   );

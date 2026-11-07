@@ -16,6 +16,9 @@ export default function Footer() {
             <Link href="/blog" className="hover:text-accent transition-colors">
               博客
             </Link>
+            <Link href="/tools" className="hover:text-accent transition-colors">
+              工具箱
+            </Link>
             <Link href="/about" className="hover:text-accent transition-colors">
               关于
             </Link>

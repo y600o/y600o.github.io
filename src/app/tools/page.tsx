@@ -27,10 +27,10 @@ export default function ToolsPage() {
               <a href={`/tools/${tool.slug}/`} className="inline-flex items-center gap-2 bg-primary px-5 py-3 font-medium text-white hover:bg-accent">
                 打开{tool.name}<ArrowUpRight className="h-4 w-4" aria-hidden="true" />
               </a>
+              {tool.note && <p className="mt-6 border-t border-primary/20 pt-4 text-sm leading-relaxed text-gray-600">{tool.note}</p>}
             </article>
           ))}
         </div>
-        <p className="mt-8 text-sm leading-relaxed text-gray-600">从旧版出差报表迁移时，请先在旧站导出设置 JSON，再在新工具中导入。账单需重新选择，手机主屏幕快捷方式需从新地址重新添加。</p>
       </div>
     </div>
   );
