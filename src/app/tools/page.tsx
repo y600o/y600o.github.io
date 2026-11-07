@@ -12,8 +12,10 @@ export default function ToolsPage() {
     <div className="min-h-screen py-12">
       <div className="mx-auto max-w-6xl px-4">
         <div className="mb-10 border-l-4 border-primary bg-secondary p-8">
-          <Wrench className="mb-4 h-8 w-8 text-primary" aria-hidden="true" />
-          <h1 className="mb-3 text-4xl font-bold text-primary">工具箱</h1>
+          <h1 className="mb-3 flex items-center gap-3 text-4xl font-bold text-primary">
+            <Wrench className="h-8 w-8 shrink-0" aria-hidden="true" />
+            工具箱
+          </h1>
           <p className="text-gray-600">把日常重复的小事，交给浏览器。</p>
         </div>
         <div className="grid gap-6 md:grid-cols-2">
