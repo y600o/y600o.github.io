@@ -29,14 +29,20 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'pnpm'
 
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build with Next.js
-        run: pnpm build
+      - name: Install tool dependencies
+        run: npm ci --prefix tools/trip-report
+
+      - name: Test tools
+        run: pnpm test:tools
+
+      - name: Build blog and tools
+        run: pnpm build:pages
 
       - name: List generated files
         run: |

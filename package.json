@@ -10,7 +10,9 @@
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint",
     "start": "bash ./scripts/start.sh",
-    "ts-check": "tsc -p tsconfig.json"
+    "ts-check": "tsc -p tsconfig.json",
+    "build:pages": "pnpm sync-post-assets && next build && node scripts/build-tools.mjs",
+    "test:tools": "npm --prefix tools/trip-report test"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.958.0",

@@ -99,3 +99,8 @@ Desktop.ini
 .turbo
 
 .coze-logs
+
+# Local package cache and tool verification
+.pnpm-store/
+.npm-cache/
+.verification/
