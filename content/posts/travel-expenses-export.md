@@ -6,7 +6,7 @@ tags:
   - PWA
   - 出差报表
 ---
-把钱迹导出的 XLSX 转换为每日消费报表。在线地址：[出差报表](https://qianji-trip-report.avatare600.chatgpt.site)
+把钱迹导出的 XLSX 转换为每日消费报表。在线地址：[出差报表](https://y600o.github.io/tools/trip-report/)
 
 > 💡 **提示**: 仅统计“类型＝报销”，日期范围包含起止当天。
 
